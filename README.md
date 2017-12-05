@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Controlling RGB LED display with Raspberry Pi GPIO
 ==================================================
 
@@ -525,3 +526,7 @@ things, like this installation by Dirk in Scharbeutz, Germany:
 [Adafruit HAT]: https://www.adafruit.com/products/2345
 [Nodejs binding]: https://github.com/zeitungen/node-rpi-rgb-led-matrix
 [Go binding]: https://github.com/mcuadros/go-rpi-rgb-led-matrix
+=======
+# led-rpi
+Raspberry Pi Project
+>>>>>>> origin/master
