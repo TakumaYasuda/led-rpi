@@ -20,7 +20,7 @@ class GraphicsTest(SampleBase):
         # graphics.DrawCircle(canvas, 15, 15, 10, green)
 
         blue = graphics.Color(0, 0, 255)
-        graphics.DrawText(canvas, font, 2, 10, blue, "空室")
+        graphics.DrawText(canvas, font, 2, 10, blue, unicode('あ', 'utf-8'))
 
         time.sleep(10)   # show display for 10 seconds before exit
 
