@@ -2,7 +2,7 @@
 from samplebase import SampleBase
 from rgbmatrix import graphics
 import time
-
+from PIL import Image
 
 class GraphicsTest(SampleBase):
     def __init__(self, *args, **kwargs):
