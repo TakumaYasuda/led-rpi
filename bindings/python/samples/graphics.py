@@ -14,13 +14,13 @@ class GraphicsTest(SampleBase):
         font.LoadFont("../../../fonts/7x13.bdf")
 
         red = graphics.Color(255, 0, 0)
-        graphics.DrawLine(canvas, 5, 5, 22, 13, red)
+        # graphics.DrawLine(canvas, 5, 5, 22, 13, red)
 
         green = graphics.Color(0, 255, 0)
-        graphics.DrawCircle(canvas, 15, 15, 10, green)
+        # graphics.DrawCircle(canvas, 15, 15, 10, green)
 
         blue = graphics.Color(0, 0, 255)
-        graphics.DrawText(canvas, font, 2, 10, blue, "Text")
+        graphics.DrawText(canvas, font, 2, 10, blue, "空室")
 
         time.sleep(10)   # show display for 10 seconds before exit
 
