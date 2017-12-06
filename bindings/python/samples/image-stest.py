@@ -8,7 +8,6 @@ class ImageScroller(SampleBase):
     def __init__(self, *args, **kwargs):
         super(ImageScroller, self).__init__(*args, **kwargs)
         self.parser.add_argument("-i", "--image", help="The image to display", default="../../../img/chibiel_dot.jpg")
-        self.parser.add_argument("-r", "--led-rows", action="store", help="Display rows. 16 for 16x32, 32 for 32x32. Default: 32", default=16, type=int)
 
     def run(self):
         if not 'image' in self.__dict__:
