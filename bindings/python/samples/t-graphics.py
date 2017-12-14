@@ -15,7 +15,7 @@ class GraphicsTest(SampleBase):
         b = "../../../fonts/shnm7x14r.bdf"
         c = "../../../fonts/shnm6x12a.bdf"
         d = "../../../fonts/k8x12L.bdf"
-        font.LoadFont(d)
+        font.LoadFont("../../../fonts/shnm8x16a.bdf")
         red = graphics.Color(255, 0, 0)
         # graphics.DrawLine(canvas, 5, 5, 22, 13, red)
 
