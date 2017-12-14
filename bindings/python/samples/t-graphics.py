@@ -15,7 +15,7 @@ class GraphicsTest(SampleBase):
         b = "../../../fonts/shnm7x14r.bdf"
         c = "../../../fonts/shnm6x12a.bdf"
         d = "../../../fonts/k8x12L.bdf"
-        font.LoadFont("../../../fonts/shnm8x16a.bdf")
+        font.LoadFont("../../../fonts/8x13.bdf")
         red = graphics.Color(255, 0, 0)
         # graphics.DrawLine(canvas, 5, 5, 22, 13, red)
 
@@ -23,9 +23,9 @@ class GraphicsTest(SampleBase):
         # graphics.DrawCircle(canvas, 15, 15, 10, green)
 
         blue = graphics.Color(0, 0, 255)
-        graphics.DrawText(canvas, font, 2, 10, blue, "空室")
+        graphics.DrawText(canvas, font, 2, 10, blue, "あいうえお")
 
-        time.sleep(10)   # show display for 10 seconds before exit
+        time.sleep(100)   # show display for 10 seconds before exit
 
 
 # Main function
