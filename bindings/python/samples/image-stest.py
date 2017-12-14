@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 import time
 from samplebase import SampleBase
-import ImageFont, ImageDraw
-
+from PIL import Image
 
 class ImageScroller(SampleBase):
     def __init__(self, *args, **kwargs):
