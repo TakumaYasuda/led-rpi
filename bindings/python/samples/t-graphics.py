@@ -11,10 +11,10 @@ class GraphicsTest(SampleBase):
     def run(self):
         canvas = self.matrix
         font = graphics.Font()
-        a = ("../../../fonts/shnm8x16a.bdf")
-        b = ("../../../fonts/shnm7x14r.bdf")
-        c = ("../../../fonts/shnm6x12a.bdf")
-        d = ("../../../fonts/k8x12L.bdf")
+        a = "../../../fonts/shnm8x16a.bdf"
+        b = "../../../fonts/shnm7x14r.bdf"
+        c = "../../../fonts/shnm6x12a.bdf"
+        d = "../../../fonts/k8x12L.bdf"
         font.LoadFont(d)
         red = graphics.Color(255, 0, 0)
         # graphics.DrawLine(canvas, 5, 5, 22, 13, red)
